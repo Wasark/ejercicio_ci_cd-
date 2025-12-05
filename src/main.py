@@ -11,3 +11,5 @@ def to_upper(cadena):
 def to_lower(cadena):
     return cadena.lower()
 
+def hola():
+    return "hola"
