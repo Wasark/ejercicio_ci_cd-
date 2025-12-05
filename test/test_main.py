@@ -1,6 +1,9 @@
-from src.main import elevar, sumar
+from src.main import elevar, sumar, to_upper
 def test_elevar():
     assert elevar(2,3) == 8
 
 def test_sumar():
     assert sumar(2,5) == 7
+
+def test_to_upper():
+    assert to_upper("cadena") == "CADENA"
