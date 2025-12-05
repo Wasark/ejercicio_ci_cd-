@@ -13,3 +13,7 @@ def to_lower(cadena):
 
 def hola():
     return "hola"
+
+def adios():
+    return "hola"
+
