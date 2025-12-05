@@ -7,3 +7,6 @@ def test_sumar():
 
 def test_to_upper():
     assert to_upper("cadena") == "CADENA"
+
+def test_to_lower():
+    assert to_upper("CADENA") == "CADENA"
